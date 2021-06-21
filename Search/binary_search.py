@@ -4,7 +4,7 @@
 # Space Complexity: O(n)
 #
 # Input: Sorted List, Key
-# Output: 
+# Output: Index of the key or None if does not exist
 
 def binary_search(list, item):
     low = 0     
