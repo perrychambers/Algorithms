@@ -1,4 +1,3 @@
-#
 # Binary Search implemented in Python 3
 # Time Complexity: O(log n)
 # Space Complexity: O(n)
@@ -23,6 +22,9 @@ def binary_search(list, item):
 
 if __name__ == "__main__":
     list = [1,3,5,7,9]
+    #unsorted_list = [6,1,3,10,2,31]
+    #sorted_list = selection_sort(unsorted_list)
 
     print (binary_search(list, 3))
-    print (binary_search(list, 4))
+    #print (binary_search(3, sorted_list))
+
